@@ -1,0 +1,121 @@
+@import "variables";
+.footer {
+  color: white;
+  background-color: $gray-color;
+}
+
+.card-courses-item {
+  margin-top: 16px;
+}
+
+.slider {
+  width: 100%;
+  height: 700px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.background-img {
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-image: url(https://r2s.edu.vn/wp-content/uploads/2023/04/1.cac-khoa-hoc-cntt-online-co-chung-chi-cho-dan-it.png);
+  filter: brightness(0.8);
+}
+
+.slogan {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.small-text {
+  font-size: 1rem;
+  color: white;
+}
+
+.navbar {
+  background-color: #343a40; /* Đổi màu nền của navbar */
+}
+.navbar-brand {
+  color: #fff; /* Đổi màu chữ của brand */
+  font-size: 1.5rem;
+}
+.navbar-brand:hover {
+  color: #e9ecef; /* Đổi màu chữ khi hover */
+}
+.navbar-nav .nav-link {
+  color: #adb5bd; /* Màu chữ của các liên kết trong navbar */
+}
+.navbar-nav .nav-link:hover {
+  color: #fff; /* Màu chữ của các liên kết khi hover */
+}
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+}
+.dropdown-menu {
+  border-radius: 0.5rem; /* Bo tròn góc của dropdown menu */
+  min-width: 220px; /* Đặt chiều rộng tối thiểu cho dropdown menu */
+}
+.dropdown-item {
+  color: #212529;
+}
+.dropdown-item:hover {
+  background-color: #e9ecef; /* Màu nền của item khi hover */
+}
+.dropdown-divider {
+  border-color: #343a40; /* Đổi màu của divider */
+}
+
+.footer {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+.footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.footer p {
+  font-size: 0.875rem;
+}
+
+.footer ul {
+  padding-left: 0;
+}
+
+.footer ul li {
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer ul li a {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+}
+
+.social-icons i {
+  transition: color 0.3s;
+}
+
+.social-icons a:hover i {
+  color: #e9ecef;
+}

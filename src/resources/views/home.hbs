@@ -1,0 +1,149 @@
+<div class="mt-4 mx-auto container">
+  <div class="row">
+    <div class="slider">
+      <div class="background-img"></div>
+      <div class="slogan">
+        <div class="">Fcourse</div>
+        <div class="small-text">Học online cùng chuyên gia</div>
+      </div>
+    </div>
+    {{#each courses}}
+      <div class="col-sm-6 col-lg-4">
+        <div class="card card-courses-item">
+          <a href="/courses/{{this.slug}}">
+            <img src="{{this.image}}" class="card-img-top" alt="..." />
+          </a>
+          <div class="card-body">
+            <a href="/courses/{{this.slug}}">
+              <h5 class="card-title">{{this.name}}</h5>
+            </a>
+            <p class="card-text">{{this.description}}</p>
+            <a href="#" class="btn btn-primary">Mua khóa học</a>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+
+    <!-- Bài viết gần đây -->
+    <div class="col-12 mt-5">
+      <h3>Bài viết gần đây</h3>
+      <div class="row">
+        <div class="col-sm-6 col-lg-4">
+          <div class="card mb-4">
+            <a href="#">
+              <img
+                src="https://thachpham.com/wp-content/uploads/2022/12/CleanShot-2022-12-13-at-13.04.31@2x-585x390.png"
+                class="card-img-top"
+                alt="Bài viết 1"
+              />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">
+                Wordpress Plugin WP Staging Pro – Clone và staging website
+                WordPress đơn giản nhất</h5>
+              <p class="card-text">Trong quá trình sử dụng WordPress của mình,
+                staging là môi trường không thể thiếu để mình có thể sửa hoặc
+                nâng cấp website mà không cần can thiệp vào…</p>
+              <a href="#" class="btn btn-primary">Đọc thêm</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="card mb-4">
+            <a href="#">
+              <img
+                src="https://thachpham.com/wp-content/uploads/2022/07/doi-ten-media-wordpress-2-585x390.png"
+                class="card-img-top"
+                alt="Bài viết 2"
+              />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Đổi tên tập tin hình ảnh trong WordPress
+                nhanh và đúng cách</h5>
+              <p class="card-text">Mặc định khi tiến hành tải lên một tập tin
+                media nào đó (hình ảnh, video) lên website WordPress, chúng ta
+                có thể tiến hành sử dụng nó ngay bằng…</p>
+              <a href="#" class="btn btn-primary">Đọc thêm</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="card mb-4">
+            <a href="#">
+              <img
+                src="https://thachpham.com/wp-content/uploads/2022/06/he-vui-khui-uu-dai-2022-585x390.png"
+                class="card-img-top"
+                alt="Bài viết 3"
+              />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">AZDIGI ưu đãi 45% và 35% trọn đời chào Hè
+                2022</h5>
+              <p class="card-text">Nhân dịp mùa hè đến, AZDIGI trân trọng giới
+                thiệu đến quý khách chương trình “Hè vui khui ưu đãi” lên đến
+                45% và ưu đãi trọn đời 35% khi…</p>
+              <a href="#" class="btn btn-primary">Đọc thêm</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="card mb-4">
+            <a href="#">
+              <img
+                src="https://thachpham.com/wp-content/uploads/2021/11/black-friday-ve-dich-demo-585x390.png"
+                class="card-img-top"
+                alt="Bài viết 4"
+              />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Bùng nổ Black Friday – Ưu đãi 90% Hosting
+                tại AZDIGI</h5>
+              <p class="card-text">Mỗi năm cứ đến dịp Black Friday luôn là dịp
+                chúng ta có thể mua sắm một số sản phẩm/dịch vụ với giá gần như
+                tốt nhất trong năm, và…</p>
+              <a href="#" class="btn btn-primary">Đọc thêm</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="card mb-4">
+            <a href="#">
+              <img
+                src="https://thachpham.com/wp-content/uploads/2020/08/wordpress-5-5-585x390.png"
+                class="card-img-top"
+                alt="Bài viết 5"
+              />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">WordPress 5.5 – Bản cập nhật đáng để mong
+                đợi</h5>
+              <p class="card-text">Tất cả người dùng mã nguồn WordPress trên
+                toàn thế giới luôn gắn bó với mã nguồn này không chỉ vì có một
+                cộng đồng đông đảo, nhiều lựa chọn…</p>
+              <a href="#" class="btn btn-primary">Đọc thêm</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="card mb-4">
+            <a href="#">
+              <img
+                src="https://thachpham.com/wp-content/uploads/2020/06/Swift-Performance-585x390.png"
+                class="card-img-top"
+                alt="Bài viết 6"
+              />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Swift Performance Pro – Plugin tối ưu toàn
+                diện cho WordPress</h5>
+              <p class="card-text">Khi sử dụng WordPress, việc sử dụng thêm công
+                nghệ lưu bộ nhớ đệm (cache) hầu như là việc bắt buộc phải sử
+                dụng nếu muốn website thật sự nhanh…</p>
+              <a href="#" class="btn btn-primary">Đọc thêm</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
